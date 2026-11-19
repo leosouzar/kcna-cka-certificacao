@@ -2,7 +2,7 @@
 
 O cluster deste roteiro chama-se **`kcna-cka-estudo`**. O arquivo [cluster.yaml](infra/kind/cluster.yaml) define um control plane e dois workers. Cada nó é um contêiner Linux no Docker. O kubeconfig fica no diretório pessoal do Ubuntu.
 
-## Começar uma sessão nesta máquina
+## Começar uma sessão nesta máquina (Teste)
 
 O Ubuntu 22.04 foi convertido para WSL 2. O laboratório usa o Docker Engine 29.9.3 já instalado, kind v0.33.0 e Kubernetes v1.37.0. Um cliente kubectl v1.37.0 próprio do laboratório fica em `~/.local/share/kcna-cka-estudo/bin`. O usuário `leosouzar` recebeu acesso ao grupo `docker`.
 
